@@ -16,3 +16,19 @@
     gap: 30px;
     row-gap: 50px;
 }
+
+
+/* my changes */
+
+@media (max-width: 480px) {
+    .food-display h2 {
+        font-size: max(4vw, 18px);
+    }
+
+    .food-display-list {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        row-gap: 30px;
+        height: auto;
+    }
+}

@@ -9,7 +9,10 @@
 }
 
 body{
-  min-width: 100vh;
+  min-height: 100vh;
+
+
+  overflow-x: hidden;
 }
 
 a{
@@ -20,6 +23,7 @@ a{
 .app{
   width: 80%;
   margin: auto;
+
 }
 
 @keyframes fadeIn {
@@ -28,5 +32,17 @@ a{
   }
   100%{
     opacity: 1;
+  }
+}
+
+/*Addition code by me */
+
+@media (max-width: 480px) {
+
+  body{
+    overflow-x: hidden !important;
+  }
+  .app {
+    width: 95%;
   }
 }

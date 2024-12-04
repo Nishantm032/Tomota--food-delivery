@@ -73,3 +73,14 @@
 .food-item-counter img{
     width: 30px;
 }
+
+/*my code */
+@media only screen and (max-width: 480px) {
+    .food-item-img-container .add {
+        width: 60px; /* Adjust the size as needed */
+    }
+
+    .food-item-counter img {
+        width: 60px;
+    }
+}

@@ -2,7 +2,7 @@
     height: 34vw;
     margin: 30px auto;
     background: url('/header_img.png') no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: relative;
 }
 
@@ -59,5 +59,33 @@
     }
     .header-contents button{
         padding: 2vw 4vw;
+    }
+}
+
+
+/* add my code */
+
+@media (max-width: 480px) {
+    .header {
+        height: 70vw;
+        background-size: cover;
+    }
+
+    .header-contents {
+        max-width: 90%;
+        left: 5vw;
+    }
+
+    .header-contents h2 {
+        font-size: max(8vw, 16px);
+    }
+
+    .header-contents p {
+        font-size: 3vw;
+    }
+
+    .header-contents button {
+        padding: 3vw 5vw;
+        font-size: max(3vw, 10px);
     }
 }

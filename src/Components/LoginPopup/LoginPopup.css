@@ -72,3 +72,20 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+
+
+/*my code */
+
+@media screen and (max-width: 480px) {
+
+
+    .login-popup{
+        position:fixed;
+    }
+
+    .login-popup-container {
+        width: 90%;
+        max-width: 480px;
+    }
+}
